@@ -7,7 +7,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: 'AddisPipeline-con'
+    ConnectedServiceName: 'AddisRmPipeline-conn'
     subscriptionName: '7f0d2216-d469-42c4-a106-31ea7b421d1d'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'derejesql'
