@@ -10,7 +10,7 @@ steps:
     ConnectedServiceName: 'AddisRmPipeline-conn'
     subscriptionName: '7f0d2216-d469-42c4-a106-31ea7b421d1d'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'derejesql'
+    resourceGroupName: 'AddisProject'
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
